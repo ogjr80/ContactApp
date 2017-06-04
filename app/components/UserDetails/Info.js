@@ -21,7 +21,7 @@ const Info = ({login, dob, location, registered}) =>
                 label="birthday"
                 body={moment(dob).format('MMMM Do, YYYY')}
             />
-
+ 
             <Row 
                 label="registered"
                 body={moment(registered).format('MMMM Do, YYYY')}
